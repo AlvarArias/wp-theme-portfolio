@@ -1,0 +1,55 @@
+.container-product {
+    display: flex;
+}
+
+.left-side {
+    background-color: bisque;
+    width: 70%;
+    text-align: center;
+}
+
+.right-side {
+    background-color: aqua;
+    width: 30%;
+    text-align: center;
+
+}
+
+.container-int-work {
+    padding: 3% 20% 3% 20%;
+
+
+}
+
+.but-cont-inf {}
+
+.btn-live {
+    background-color: gray;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5%
+}
+
+.icon-cont-inf {
+    height: 150px;
+    background-color: brown;
+}
+
+.img-product {
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.img-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50%;
+}

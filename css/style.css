@@ -1,0 +1,266 @@
+/*My CSS*/
+
+body {
+    margin: 0 0 0 0;
+}
+
+p {
+   font-family: 'Nixie One',
+   regular;
+}
+
+h1,h2,h3 {
+    font-family: 'Comfortaa', regular;
+}
+
+header#home {
+    background-color: #ECEDF1;
+    background-image: url(./img-header.png);
+    background-size: cover;
+    background-position: center bottom;
+    height: 400px;
+    padding-right: 10px;
+    
+}
+
+header#my-job {
+    /*background-image: url(/Img/my-work-header.png);*/
+    background-color: #728DC7;
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+    padding-right: 10px;
+
+}
+
+header#about-me {
+    background-image: url(/Img/cordillera.jpg);
+    background-color: #728DC7;
+    /*opacity: 0.8;*/
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 600px;
+    padding-right: 10px;
+    margin-bottom:
+
+}
+
+#about-skåne {
+    /*background-image: url(/Img/skane.jpg);*/
+    background-color: #172441;
+    opacity: 0.8;
+    background-size: cover;
+    background-position:fixed;
+    height: 300px;
+    padding-right: 10px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+   
+    
+
+}
+
+header#contact {
+    background-color: #ECEDF1;
+    /*background-image: url(/Img/my-work-header.png);*/
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+    padding-right: 10px;
+
+}
+
+a:visited {
+
+    color: #728DC7;
+}
+
+a:unvisited {
+    color: red;
+   
+}
+
+a {
+    height: 50px
+}
+
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+
+.my-work {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.container-int {
+ display: flex;
+ flex-direction: column;   
+ margin-left: 15px;
+ margin-right: 15px;
+ width: 200px;
+ text-align: center;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100px;
+   
+
+}
+
+
+
+.titulo {
+    padding-top: 20px;
+}
+
+/*my-works*/
+.main-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+}
+
+.img-work {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+  
+}
+
+.text-container {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20px;
+
+}
+
+.text-about {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#my-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#my-headline {
+    padding-top: 8%;
+    width: 50%;
+    /*background-color: red;*/
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+#my-menu {
+
+    height: 400px;
+
+}
+
+/*side bar*/
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 40px;
+    /* Stay at the top */
+    left: 0;
+    background-color: #728dc7;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2f375a;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#about-me {
+    height: 300px;
+    background-color: #728DC7ff;
+    margin-bottom: 0px;
+    
+}
+
+#my-footer {
+    height: 300px;
+    background-color: #ECEDF1;
+    margin-top: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
